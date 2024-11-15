@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    /* General body styling with a clean background */
+    body {
+      background-image: url('/storage/emulated/0/Pictures/100PINT/Pins/50019d6157d50ce533045fac6840b462.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: auto;
+      text-align: center;
+      font-family: 'Open Sans', sans-serif;
+      overflow-x: hidden;
+      animation: fadeInBody 1.5s ease-in;
+      color: white;
+    }
+
+    @keyframes fadeInBody {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    /* Heading styling */
+    h1 {
+      font-family: 'Lobster', cursive;
+      font-size: 3em;
+      margin: 5% auto;
+      padding: 1%;
+      border-bottom: 3px solid white;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+      animation: fadeIn 2s ease-in;
+    }
+
+    /* Image styling with hover effect */
+    img {
+      margin: 2.5%;
+      width: 40%;
+      border: 3px solid white;
+      border-radius: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Paragraph styling */
+    p {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1.2em;
+      margin: 20px auto;
+      padding: 15px;
+      width: 70%;
+      max-width: 800px;
+      border-radius: 10px;
+      background-color: rgba(0, 0, 0, 0.5);
+      border: 2px solid #fff;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    p:hover {
+      transform: translateY(-5px);
+    }
+
+    /* Button styling */
+    a {
+      display: inline-block;
+      margin: 20px auto;
+      padding: 12px 25px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1em;
+      background-color: #333;
+      color: #f1f1f1;
+      text-decoration: none;
+      border-radius: 10px;
+      border: 2px solid #fff;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      transition: background-color 0.3s, transform 0.3s ease;
+    }
+
+    a:hover {
+      background-color: #555;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    }
+
+    /* Fade-in animation for elements */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <!-- Heading -->
+  <h1>About Me</h1>
+
+  <!-- Profile Image -->
+  <img src="/storage/emulated/0/Pictures/100PINT/Pins/d5b009a0b6bdc4e719952e0272f3b3fe (1).jpg" alt="Profile Image">
+
+  <!-- Content Paragraphs -->
+  <p>Loves: Music, sleeping, money, anime, manga/hwa/hua, & capybaras.</p>
+  <p>Pet peeves/dislikes: BBM, crab mentality, backhanded compliments, unnecessary commentaries & men.</p>
+  <p>I LIVE FOR THE GAYS</p>
+
+  <!-- Navigation Button -->
+  <nav>
+    <a href="haha.html">Home</a>
+  </nav>
+</body>
+</html>
+
