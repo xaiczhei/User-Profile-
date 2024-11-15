@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Contact</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      color: white;
+      background-image: url('/storage/emulated/0/Pictures/100PINT/Pins/18afc7e23b20a82c7c5dd173ca935970.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: rgba(0, 0, 0, 0.7); /* Dark overlay for better readability */
+      border-radius: 15px;
+      padding: 20px 30px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      color: #f5f5f5;
+    }
+
+    .header {
+      margin-bottom: 20px;
+      font-size: 2.5em;
+      font-weight: 700;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+      color: #ffcccc; /* Soft pastel pink */
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin: 15px 0;
+      line-height: 1.5;
+      animation: slideIn 1.5s ease-in-out;
+    }
+
+    a {
+      color: #ffcccc;
+      text-decoration: none;
+      font-weight: 400;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #ff7777;
+    }
+
+    .button {
+      display: inline-block;
+      margin: 20px 0;
+      background-color: #ffcccc;
+      color: black;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1.1em;
+      font-weight: 700;
+      text-transform: uppercase;
+      border-radius: 25px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .button:hover {
+      background-color: #ff7777;
+      color: white;
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #f5f5f5;
+      animation: fadeIn 3s ease-in-out;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="header">My Contact</h1>
+
+    <p>Email: <a href="mailto:patricialouise862@gmail.com">patricialouise862@gmail.com</a></p>
+    <p>Contact Number: <span>09486413993</span></p>
+    <p>Facebook: <a href="https://facebook.com" target="_blank">Patricia Louise</a></p>
+    <p>Instagram: <a href="https://instagram.com/xaiczhei" target="_blank">@xaiczhei</a></p>
+
+    <a class="button" href="haha.html">Back to Homepage</a>
+  </div>
+
+  <footer>
+    It was a great story, right? Yoojunghyuk. 
+  </footer>
+</body>
+
+</html>
